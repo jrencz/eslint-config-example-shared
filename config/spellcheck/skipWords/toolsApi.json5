@@ -1,0 +1,5 @@
+[
+  "ng", // Angular
+  "lcovonly", // karma-coverage api
+  "sref", // In ui-router: [ui-sref]
+]
