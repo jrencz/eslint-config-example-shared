@@ -3,9 +3,6 @@
   "version": "1.0.0",
   "description": "Example and starter of how to handle sharable ESLint configuration",
   "main": "index.js",
-  "config": {
-    "foo": 1
-  },
   "scripts": {
     "pretest": "eslint-find-rules --unused || ./script/explain.js",
     "test": "eslint --no-eslintrc --config index.js ./"
