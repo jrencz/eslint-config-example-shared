@@ -1,0 +1,46 @@
+{
+  "name": "eslint-config-example-shared",
+  "version": "1.0.0",
+  "description": "Example and starter of how to handle sharable ESLint configuration",
+  "main": "index.js",
+  "scripts": {
+    "pretest": "eslint-find-rules --unused || ./script/explain.js",
+    "test": "eslint ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://jrencz@github.com/jrencz/eslint-config-example-shared.git"
+  },
+  "keywords": [
+    "eslint",
+    "eslintconfig",
+    "config"
+  ],
+  "author": "Jarek Rencz <jarek.rencz@functionite.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jrencz/eslint-config-example-shared/issues"
+  },
+  "homepage": "https://github.com/jrencz/eslint-config-example-shared#readme",
+  "peerDependencies": {
+    "eslint": ">= 3.10"
+  },
+  "dependencies": {
+    "babel-eslint": "^7.1.1",
+    "builtin-modules": "^1.1.1",
+    "eslint-plugin-angular": "github:jrencz/eslint-plugin-angular#fix-437-allow-identifiers-in-module-dependency-order",
+    "eslint-plugin-jasmine": "^2.2.0",
+    "eslint-plugin-protractor": "^1.32.0",
+    "eslint-plugin-spellcheck": "0.0.8",
+    "html-attrs": "^1.0.0",
+    "html-tag-names": "^1.1.0",
+    "image-extensions": "^1.1.0",
+    "json5": "^0.5.1",
+    "npmls": "^3.0.0",
+    "text-extensions": "^1.4.0"
+  },
+  "devDependencies": {
+    "eslint": "^3.13.1",
+    "eslint-find-rules": "^1.14.3"
+  }
+}
